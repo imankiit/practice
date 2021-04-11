@@ -1,6 +1,5 @@
 package org.booking.ticket.model.entity;
 
-import java.io.Serializable;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -23,33 +22,27 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "THEATER")
+@Table(name = "MOVIE")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Theatre implements Serializable {
-	
-	private static final long serialVersionUID = 1L;
+public class Movie {
 
 	@Id
-	@GeneratedValue(strategy= GenerationType.SEQUENCE, generator="theaterSequence")
-	@SequenceGenerator(name="theaterSequence",sequenceName="theater_seq", allocationSize=1)
-	@Column(name = "THEATER_ID")
-	private Long theaterId;
+	@GeneratedValue(strategy= GenerationType.SEQUENCE, generator="movieSequence")
+	@SequenceGenerator(name="movieSequence",sequenceName="movie_seq", allocationSize=1)
+	@Column(name="MOVIE_ID")
+	private Long movieId;
 	
-	@Column(name = "THEATER_NAME")
-	private String name;
-	
-	@Column(name = "SEATS")
-	private int totalSeats;
+	@Column(name="MOVIE_NAME")
+	private String movieName;
 	
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	@JoinTable(
-            name="THEATER_MOVIE",
-            joinColumns = @JoinColumn( name="THEATER_ID"),
-            inverseJoinColumns = @JoinColumn( name="MOVIE_ID")
+            name="MOVIE_SEAT",
+            joinColumns = @JoinColumn( name="MOVIE_ID"),
+            inverseJoinColumns = @JoinColumn( name="SEAT_ID")
     )
 	@JsonIgnore
-	private List<Movie> movies;
-	
+	private List<Seat> seats;
 }

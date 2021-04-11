@@ -3,31 +3,25 @@ package org.booking.ticket.controller;
 import java.util.List;
 
 import org.booking.ticket.model.entity.City;
+import org.booking.ticket.model.entity.Theatre;
 import org.booking.ticket.repository.CityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/city")
-public class CityController {
+@RequestMapping("/theater")
+public class TheaterController {
 
 	@Autowired
 	private CityRepository cityRepository;
 	
-	@GetMapping(value = "/")
-	public ResponseEntity<List<City>> findAll() {
-		List<City> cities = cityRepository.findAll();
-		return ResponseEntity.ok(cities);
+	@GetMapping(value = "/{cityId}")
+	public ResponseEntity<List<Theatre>> findAllByCityId(@PathVariable("cityId") Long cityId) {
+		City city = cityRepository.findById(cityId).orElseThrow(()-> new RuntimeException("City not found"));
+		return ResponseEntity.ok(city.getTheater());
 	}
-	
-	@PostMapping(value = "/")
-	public ResponseEntity<City> save(@RequestBody City city) {
-		return ResponseEntity.ok(cityRepository.save(city));
-	}
-   
 }

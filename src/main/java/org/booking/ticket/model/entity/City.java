@@ -15,6 +15,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -37,12 +39,13 @@ public class City implements Serializable {
 	@Column(name = "CITY_NAME")
 	private String cityName;
 	
-	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	@JoinTable(
             name="CITY_THEATRE",
             joinColumns = @JoinColumn( name="CITY_ID"),
             inverseJoinColumns = @JoinColumn( name="THEATER_ID")
     )
+	@JsonIgnore
 	private List<Theatre> theater;
 
 }
