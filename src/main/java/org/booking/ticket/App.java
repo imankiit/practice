@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@SpringBootApplication(proxyBeanMethods = false)
+@SpringBootApplication
 @EnableTransactionManagement
 public class App {
 
