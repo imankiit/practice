@@ -1,5 +1,6 @@
 package org.booking.ticket;
 
+import org.booking.ticket.controller.CityController;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.test.web.reactive.server.WebTestClient;
@@ -10,7 +11,7 @@ class GreetingControllerTest {
 
     @BeforeAll
     void setUp() throws Exception {
-        this.testClient = WebTestClient.bindToController(new BookingController())
+        this.testClient = WebTestClient.bindToController(new CityController())
             .build();
     }
 

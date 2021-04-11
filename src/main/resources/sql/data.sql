@@ -2,9 +2,9 @@
 truncate table city;
 commit;
 
-insert into city (city_name) values ('DELHI');
-insert into city (city_name) values ('MUMBAI');
-insert into city (city_name) values ('HYDERABAD');
+insert into city (city_id, city_name) values (CITY_SEQ.nextval,'DELHI');
+insert into city (city_id, city_name) values (CITY_SEQ.nextval, 'MUMBAI');
+insert into city (city_id, city_name) values (CITY_SEQ.nextval,'HYDERABAD');
 
 commit;
 

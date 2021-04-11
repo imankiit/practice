@@ -18,7 +18,7 @@
 	</parent>
 	<properties>
 		<java.version>1.86</java.version>
-		<spring-fox-swagger>3.0.0</spring-fox-swagger>
+		<spring-fox-swagger>2.9.2</spring-fox-swagger>
 		<start-class>org.booking.ticket.App</start-class>
 	</properties>
 
@@ -50,7 +50,7 @@
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
-			<version>${spring-fox-swagger}</version>
+			<version>3.0.0</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
