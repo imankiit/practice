@@ -1,0 +1,16 @@
+server:
+	  port: 9090
+spring:
+  datasource:
+    url: jdbc:h2:file:~/book-my-ticket
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  h2:
+    console:
+      path: /h2-book-my-ticket
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+      naming-strategy: org.hibernate.cfg.DefaultComponentSafeNamingStrategy
