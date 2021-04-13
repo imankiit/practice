@@ -1,0 +1,26 @@
+POST /api/city/ HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+Content-Length: 276
+
+{
+	"cityName": "Hyderabad",
+	"theaters": [{
+		"name": "PVR",
+		"totalSeats": 100,
+		"movies":
+		[{
+			"movieName": "Avenger",
+			"seats":
+			[{
+				"booked": "N"
+			}, {
+				"booked": "N"
+			}, {
+				"booked": "N"
+			}, {
+				"booked": "N"
+			}]
+		}]
+	}]
+}

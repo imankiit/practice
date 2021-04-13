@@ -1,0 +1,14 @@
+POST /api/booking/book HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+Content-Length: 137
+
+{
+    "userId": "xyz",
+    "theaterId": 33,
+    "movieId": 33,
+    "seats":[{
+        "seatId": 67,
+        "version": 0
+    }]
+}
