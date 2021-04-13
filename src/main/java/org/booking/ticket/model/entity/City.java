@@ -15,8 +15,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -45,7 +43,6 @@ public class City implements Serializable {
             joinColumns = @JoinColumn( name="CITY_ID"),
             inverseJoinColumns = @JoinColumn( name="THEATER_ID")
     )
-	@JsonIgnore
-	private List<Theatre> theater;
+	private List<Theatre> theaters;
 
 }

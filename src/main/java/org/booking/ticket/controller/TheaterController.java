@@ -22,6 +22,6 @@ public class TheaterController {
 	@GetMapping(value = "/{cityId}")
 	public ResponseEntity<List<Theatre>> findAllByCityId(@PathVariable("cityId") Long cityId) {
 		City city = cityRepository.findById(cityId).orElseThrow(()-> new RuntimeException("City not found"));
-		return ResponseEntity.ok(city.getTheater());
+		return ResponseEntity.ok(city.getTheaters());
 	}
 }

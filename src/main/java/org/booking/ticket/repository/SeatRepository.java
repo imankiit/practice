@@ -1,6 +1,7 @@
 package org.booking.ticket.repository;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.booking.ticket.model.entity.Seat;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -14,4 +15,6 @@ import org.springframework.transaction.annotation.Transactional;
 public interface SeatRepository extends JpaRepository<Seat, Long> {
 
 	List<Seat> findBySeatIdIn(List<Long> seatId);
+	
+	Optional<Seat> findBySeatIdAndBookedAndVersion(Long seatId, String booked, int version);
 }

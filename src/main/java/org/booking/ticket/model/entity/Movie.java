@@ -15,8 +15,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -43,6 +41,5 @@ public class Movie {
             joinColumns = @JoinColumn( name="MOVIE_ID"),
             inverseJoinColumns = @JoinColumn( name="SEAT_ID")
     )
-	@JsonIgnore
 	private List<Seat> seats;
 }
