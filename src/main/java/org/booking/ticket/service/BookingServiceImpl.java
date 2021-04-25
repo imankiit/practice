@@ -53,7 +53,6 @@ public class BookingServiceImpl implements BookingService  {
 			bookingResponse.setBooked(bookingRequest.getSeats().stream().map(Seat::getSeatId).collect(Collectors.toList()));
 			
 		} catch(Exception e) {
-			log.error("Unable to book seats", e);
 			bookingResponse.setResponse(e.getMessage());
 		}
 		

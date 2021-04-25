@@ -26,8 +26,8 @@ public class CityController {
 	}
 	
 	@PostMapping(value = "/")
-	public ResponseEntity<City> save(@RequestBody City city) {
-		return ResponseEntity.ok(cityRepository.save(city));
+	public ResponseEntity<List<City>> save(@RequestBody List<City> city) {
+		return ResponseEntity.ok(cityRepository.saveAll(city));
 	}
    
 }

@@ -1,0 +1,560 @@
+[
+        {
+			"cityName": "Mumbai",
+			"theaters": [{
+					"name": "PVR",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "Avenger",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Spider Man",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Iron man",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}, {
+					"name": "Inox",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "The courier",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Money Heist",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Danny",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}, {
+					"name": "AMB",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "Thor",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Once upon a time",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "1947",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}
+			]
+		}, {
+			"cityName": "Hyderabad",
+			"theaters": [{
+					"name": "PVR",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "Avenger",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Spider Man",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Iron man",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}, {
+					"name": "Inox",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "The courier",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Money Heist",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Danny",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}, {
+					"name": "AMB",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "Thor",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Once upon a time",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "1947",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}
+			]
+		}, {
+			"cityName": "Delhi",
+			"theaters": [{
+					"name": "PVR",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "Avenger",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Spider Man",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Iron man",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}, {
+					"name": "Inox",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "The courier",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Money Heist",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Danny",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}, {
+					"name": "AMB",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "Thor",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Once upon a time",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "1947",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}
+			]
+		}, {
+			"cityName": "Kolkata",
+			"theaters": [{
+					"name": "PVR",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "Avenger",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Spider Man",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Iron man",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}, {
+					"name": "Inox",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "The courier",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Money Heist",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Danny",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}, {
+					"name": "AMB",
+					"totalSeats": 100,
+					"movies":
+					[{
+							"movieName": "Thor",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "Once upon a time",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}, {
+							"movieName": "1947",
+							"seats":
+							[{
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}, {
+									"booked": "N"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+
+	]

@@ -20,4 +20,38 @@ public class BookingRequest {
 	private Long movieId;
 	
 	private List<Seat> seats;
+
+	public String getUserId() {
+		return userId;
+	}
+
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+
+	public Long getTheaterId() {
+		return theaterId;
+	}
+
+	public void setTheaterId(Long theaterId) {
+		this.theaterId = theaterId;
+	}
+
+	public Long getMovieId() {
+		return movieId;
+	}
+
+	public void setMovieId(Long movieId) {
+		this.movieId = movieId;
+	}
+
+	public List<Seat> getSeats() {
+		return seats;
+	}
+
+	public void setSeats(List<Seat> seats) {
+		this.seats = seats;
+	}
+	
+	
 }

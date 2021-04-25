@@ -40,5 +40,44 @@ public class Seat {
 	public void setVersion() {
 		this.version+=1;
 	}
+
+
+	public Long getSeatId() {
+		return seatId;
+	}
+
+
+	public void setSeatId(Long seatId) {
+		this.seatId = seatId;
+	}
+
+
+	public String getBooked() {
+		return booked;
+	}
+
+
+	public void setBooked(String booked) {
+		this.booked = booked;
+	}
+
+
+	public String getBookedBy() {
+		return bookedBy;
+	}
+
+
+	public void setBookedBy(String bookedBy) {
+		this.bookedBy = bookedBy;
+	}
+
+
+	public int getVersion() {
+		return version;
+	}
+	
+	
+	
+	
 	
 }
